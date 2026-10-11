@@ -1,0 +1,25 @@
+{
+  "model": "GNN (custom mean-aggregation, true mesh connectivity)",
+  "n_layers": 3,
+  "hidden": 64,
+  "n_train_graphs": 2562,
+  "n_test_graphs": 1108,
+  "random_state": 42,
+  "per_target": {
+    "temperature": {
+      "test_r2": 0.930971318636114,
+      "test_rmse": 0.07878198345010338,
+      "train_r2": 0.9244358540703099
+    },
+    "u": {
+      "test_r2": 0.832815043127419,
+      "test_rmse": 0.19330972269702495,
+      "train_r2": 0.8474594612255447
+    },
+    "v": {
+      "test_r2": 0.8077667896830699,
+      "test_rmse": 0.2061034277593166,
+      "train_r2": 0.8335622779816735
+    }
+  }
+}

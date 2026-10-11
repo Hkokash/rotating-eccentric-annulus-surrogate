@@ -1,0 +1,60 @@
+\documentclass[preprint,12pt]{elsarticle}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{lineno}
+\usepackage{hyperref}
+
+\journal{International Communications in Heat and Mass Transfer}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Mixed Convection in a Rotating Eccentric Horizontal Annulus via Data-Driven Surrogate Modeling}
+
+\author[aum,umflint]{Hussein Kokash\corref{cor1}}
+\ead{h.kokash@aum.edu.jo}
+\author[umflint]{Khalil Khanafer}
+\author[umflint,umaa]{Mihai Burzo}
+
+\cortext[cor1]{Corresponding author.}
+\address[aum]{Department of Mechanical Engineering, American University of Madaba, Madaba, Jordan}
+\address[umflint]{Department of Mechanical Engineering, College of Innovation \& Technology, University of Michigan-Flint, Flint, MI 48502, USA}
+\address[umaa]{Department of Mechanical Engineering, University of Michigan, Ann Arbor, MI 48109, USA}
+
+\begin{abstract}
+\input{sections/abstract.tex}
+\end{abstract}
+
+\begin{keyword}
+mixed convection \sep eccentric annulus \sep rotating cylinder \sep machine learning surrogate \sep gradient boosting \sep graph neural network \sep uncertainty quantification
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\input{sections/introduction.tex}
+
+\input{sections/methodology.tex}
+
+\input{sections/ml_models.tex}
+
+\input{sections/results.tex}
+
+\clearpage
+
+\input{sections/conclusion.tex}
+
+\section*{CRediT authorship contribution statement}
+\textbf{Hussein Kokash}: Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Writing -- original draft, Visualization. \textbf{Khalil Khanafer}: Validation, Supervision, Writing -- review \& editing. \textbf{Mihai Burzo}: Supervision, Writing -- review \& editing.
+
+\section*{Declaration of competing interest}
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+\bibliographystyle{elsarticle-num}
+\bibliography{references}
+
+\end{document}

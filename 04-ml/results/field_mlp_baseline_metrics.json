@@ -1,0 +1,25 @@
+{
+  "model": "per-node MLP baseline",
+  "n_train_cases": 24,
+  "n_test_cases": 11,
+  "n_train_rows": 6199155,
+  "n_test_rows": 2599948,
+  "random_state": 42,
+  "per_target": {
+    "temperature": {
+      "test_r2": 0.966560477336721,
+      "test_rmse": 0.054833018858004665,
+      "train_r2": 0.9699465044930233
+    },
+    "u": {
+      "test_r2": 0.9417459719450596,
+      "test_rmse": 0.1141085218437635,
+      "train_r2": 0.9414586090982603
+    },
+    "v": {
+      "test_r2": 0.9372193273993712,
+      "test_rmse": 0.11778337300803854,
+      "train_r2": 0.9382561357853909
+    }
+  }
+}

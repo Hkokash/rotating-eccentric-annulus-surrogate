@@ -1,0 +1,24 @@
+{
+  "method": "Deep ensemble of 5 independently-seeded per-node MLPs",
+  "n_test_rows": 4038840,
+  "per_target": {
+    "temperature": {
+      "ensemble_mean_r2": 0.9730947856007152,
+      "mean_predictive_std": 0.014656281156075746,
+      "fraction_within_95pct_interval": 0.9275254776123838,
+      "target_fraction": 0.95
+    },
+    "u": {
+      "ensemble_mean_r2": 0.9685933204444686,
+      "mean_predictive_std": 0.008353324241693586,
+      "fraction_within_95pct_interval": 0.9224661041289083,
+      "target_fraction": 0.95
+    },
+    "v": {
+      "ensemble_mean_r2": 0.9737881907834063,
+      "mean_predictive_std": 0.010723012335255067,
+      "fraction_within_95pct_interval": 0.9020082498935338,
+      "target_fraction": 0.95
+    }
+  }
+}

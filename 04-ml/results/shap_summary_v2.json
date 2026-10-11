@@ -1,0 +1,29 @@
+{
+  "method": "SHAP TreeExplainer on winning XGBoost model, evaluated on the same 30% held-out test set",
+  "n_test": 1638,
+  "mean_abs_shap_ranking": [
+    {
+      "feature": "re",
+      "mean_abs_shap": 2.6078710556030273
+    },
+    {
+      "feature": "r_star",
+      "mean_abs_shap": 2.0637972354888916
+    },
+    {
+      "feature": "ri",
+      "mean_abs_shap": 1.4818161725997925
+    },
+    {
+      "feature": "epsilon",
+      "mean_abs_shap": 0.3164988160133362
+    }
+  ],
+  "feature_vs_shap_correlation": {
+    "r_star": -0.807305770578276,
+    "epsilon": 0.9579831561990174,
+    "re": 0.924808761144145,
+    "ri": 0.7791328779114475
+  },
+  "interpretation_note": "positive correlation means the feature's SHAP contribution increases with the feature's raw value (monotonic positive effect on Nu on average); does not rule out non-monotonic or interaction effects, see the dependence plots."
+}

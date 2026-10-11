@@ -1,0 +1,12 @@
+{
+  "model": "PINN",
+  "architecture": "MLP [4,64,64,64,1], tanh, physics penalty on d(Nu)/d(Re)>=0 and d(Nu)/d(Ri)>=0, lambda=0.1",
+  "epochs": 3000,
+  "train_r2": 0.999373053854527,
+  "test_r2": 0.999356043890096,
+  "test_mape_pct": 1.0713517684182148,
+  "test_rmse": 0.13159121271971214,
+  "n_train": 3822,
+  "n_test": 1638,
+  "random_state": 42
+}

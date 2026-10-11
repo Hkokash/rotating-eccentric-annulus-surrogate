@@ -1,0 +1,11 @@
+{
+  "model": "KAN",
+  "architecture": "width=[4,8,1], grid=12, k=3",
+  "train_r2": 0.9971462999622013,
+  "test_r2": 0.9972473672153501,
+  "test_mape_pct": 2.169845724592814,
+  "test_rmse": 0.2720651372303789,
+  "n_train": 3822,
+  "n_test": 1638,
+  "random_state": 42
+}
